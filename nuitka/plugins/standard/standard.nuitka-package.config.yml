@@ -3833,6 +3833,12 @@
       - description: 'PyGame is a GUI framework'
         macos_bundle: 'recommend'
 
+  dlls:
+    - from_filenames:
+        prefixes:
+          - 'libpng'
+          - 'libjpeg'
+
 - module-name: 'pygame_menu' # checksum: 3f9f0b7d
   data-files:
     dirs:
