@@ -3823,15 +3823,16 @@
     dirs:
       - '.'
 
-- module-name: 'pygame' # checksum: 3c30d21e
+- module-name: 'pygame' # checksum: f29246e3
   data-files:
     patterns:
       - 'freesansbold.ttf'
 
   dlls:
     - from_filenames:
+        relative_path: '.'
         prefixes:
-          - '*'
+          - ''
 
   options:
     checks:
