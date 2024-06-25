@@ -3823,21 +3823,20 @@
     dirs:
       - '.'
 
-- module-name: 'pygame' # checksum: 5fbb83cf
+- module-name: 'pygame' # checksum: 3c30d21e
   data-files:
     patterns:
       - 'freesansbold.ttf'
+
+  dlls:
+    - from_filenames:
+        prefixes:
+          - '*'
 
   options:
     checks:
       - description: 'PyGame is a GUI framework'
         macos_bundle: 'recommend'
-
-  dlls:
-    - from_filenames:
-        prefixes:
-          - 'libpng'
-          - 'libjpeg'
 
 - module-name: 'pygame_menu' # checksum: 3f9f0b7d
   data-files:
